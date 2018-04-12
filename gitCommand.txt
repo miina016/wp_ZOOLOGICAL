@@ -1,0 +1,31 @@
+    1  ssh-keygen -t rsa
+    2  cd .ssh
+    3  ls
+    4  vi id_rsa.pub
+    5  cd ..
+    6  mk di r gitest
+    7  mkdir gitest
+    8  cd gitest
+    9  git clone git@github.com:miina016/wp_ZOOLOGICAL.git
+   10  git clone git@github.com:miina016/wp_ZOOLOGICAL.git
+   11  ls
+   12  cd wp_ZOOLOGICAL
+   13  ls
+   14  ls
+   15  ls -la
+   16  echo "# wp_ZOOLOGICAL" >> README.md
+   17  ls
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m "READ.meを追加しました"
+   22  git status
+   23  git push origin master 
+   24  vi README.md
+   25  git status
+   26  git add .
+   27  git status
+   28  git commit -m "READMEを編集しました"
+   29  git push origin master
+   30  history
+   31  history >> gitCommand.txt
