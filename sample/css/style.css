@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+
+body {
+    background: url("./images/bg.jpg") repeat-x center top;
+    color: #666;
+}
+
+header,
+.nav-global,
+.nav-breadcrumb,
+.contents,
+footer {
+    margin: 0 auto;
+    width: 860px;
+}
+
+header h1 {
+    margin: 0 0 26px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.nav-global ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    padding-left: 0;
+}
+
+.nav-global ul li {
+    width: 215px;
+}
+
+.nav-global ul li a {
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.nav-global ul li a:hover {
+    background-position: 0 -60px;
+}
+
+.nav-global ul li:nth-child(1) a {
+    background-image: url("./images/nav1.png");
+}
+
+.nav-global ul li:nth-child(2) a {
+    background-image: url("./images/nav2.png");
+}
+
+.nav-global ul li:nth-child(3) a {
+    background-image: url("./images/nav3.png");
+}
+
+.nav-global ul li:nth-child(4) a {
+    background-image: url("./images/nav4.png");
+}
+
+.navdown ul li{
+    display: block !important;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    width: 550px;
+}
+
+main h1 {
+    background: url("./images/bg_h1_left.png") no-repeat right top,
+                url("./images/bg_h1_bottom.gif") repeat-x left bottom;
+    margin-bottom: 30px;
+    padding: 0 40px 20px 10px;
+}
+
+.contents-sub {
+    width: 240px;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+.news ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.news ul li {
+    border-bottom: dotted 1px #fb484e;
+    list-style: none;
+    padding: 20px 0 20px 160px;
+    text-indent: -160px;
+}
+
+.about-area {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.about-area:last-child {
+    margin-bottom: 0;
+}
+
+table thead tr th {
+    background-color: #ffdd63;
+}
+
+table tbody tr:nth-child(2n) td {
+    background-color: #eef8fa;
+}
+
+.animals-ara figure {
+    width: 265px;
+    margin: 0 0 15px 20px;
+    float: left;
+}
+
+.animals-area figure figcaption {
+    margin-right: 20px;
+    padding-top: 0;
+}
+
+
+.animals-area figure:first-child {
+    margin-left: 0px;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+input[type="email"] {
+    width: 300px;
+}
